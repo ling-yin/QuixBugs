@@ -1,6 +1,8 @@
 *.pyc
 *.class
 .env
+*.log
+*.txt
 
 .gradle/
 build/
