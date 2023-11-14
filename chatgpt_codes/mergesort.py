@@ -1,8 +1,4 @@
-The bug in the code is that the `mergesort` function is missing a base case to handle the scenario when the input array has only one element. 
 
-Here is the corrected code:
-
-```python
 def mergesort(arr):
     def merge(left, right):
         result = []
@@ -25,6 +21,3 @@ def mergesort(arr):
         left = mergesort(arr[:middle])
         right = mergesort(arr[middle:])
         return merge(left, right)
-```
-
-This code will handle the case when the input array has only one element, preventing an infinite recursion.

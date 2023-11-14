@@ -1,4 +1,3 @@
-```
 from heapq import *
 
 def shortest_path_length(length_by_edge, startnode, goalnode):
@@ -44,4 +43,3 @@ def insert_or_update(node_heap, dist_node):
 
     heappush(node_heap, dist_node)
     return None
-```
